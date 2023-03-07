@@ -1,0 +1,14 @@
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo-gallery p {
+    margin: 6px;
+    max-width: 30%;
+}
+
+.photo-gallery img {
+    height: auto;
+}

@@ -1,0 +1,35 @@
+---
+layout: base
+---
+
+<div class="home">
+    {{ content }}
+
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <ul class="post-list">
+        {% for post in site.posts %}
+            <li>
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+                <h3>
+                    <a class="post-link" href="{{ post.permalink }}">
+                        {{ post.title | escape }}
+                    </a>
+                </h3>
+                {{ post.content }}
+                <div class="photo-gallery">
+                    {% for photo in post.photos %}
+                        <p>
+                            <a href="{{ photo.path }}" target="_blank"
+                            title="{{ photo.description }}">
+                             <img src="{{ photo.path }}"
+                                  alt="{{ photo.alt }}"/>
+                            </a><br/>
+                            <small>{{ photo.description }}</small>
+                         </p>
+                    {% endfor %}
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+
+</div>
