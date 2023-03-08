@@ -1,4 +1,4 @@
-.photo-gallery {
+.photo-gallery, .photo-gallery-large {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -9,6 +9,19 @@
     max-width: 30%;
 }
 
-.photo-gallery img {
+.photo-gallery-large p {
+    margin: 6px;
+    max-width: 48%;
+}
+
+.photo-gallery img, .photo-gallery-large img {
     height: auto;
+}
+
+a.external {
+    background-image: url(/assets/ext.svg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 0.857em;
+    padding-right: 1em;
 }

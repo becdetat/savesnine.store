@@ -1,7 +1,7 @@
 version: '3'
 services:
   jekyll:
-    image: savesninedev
+    image: savesnine-dev
     platform: linux/amd64
     ports:
       - "4000:4000"

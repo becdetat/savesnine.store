@@ -14,12 +14,20 @@ layout: base
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: date_format }}
       </time>
+      {% if page.facebook_link %}
+        - see this on 
+        <a href="{{ page.facebook_link }}"
+          target="_blank"
+          class="external">
+          Facebook
+        </a>
+      {% endif %}
     </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
-    <div class="photo-gallery">
+    <div class="photo-gallery-large">
         {% for photo in page.photos %}
             <p>
                 <a href="{{ photo.path }}" target="_blank"
@@ -28,6 +36,14 @@ layout: base
                       alt="{{ photo.alt }}"/>
                 </a><br/>
                 <small>{{ photo.description }}</small>
+                {% if photo.product_size %}
+                  <br/>
+                  <small><strong>Size:</strong> {{ photo.product_size }}</small>
+                {% endif %}
+                {% if photo.price %}
+                  <br/>
+                  <small><strong>Price:</strong> ${{ photo.price }} AUD (not including postage)</small>
+                {% endif %}
              </p>
         {% endfor %}
     </div>
