@@ -6,7 +6,7 @@ permalink: /contact/
 
 Saves Nine prefers to work from a portfolio of designs and quality materials, so custom commissions are not generally accepted. However, if you see something that you like, please get in touch with Charmaine to talk about the design and help decide on the best materials to work with.
 
-Charmaine works from a large collection of designs in her portfolio, and although she can make minor alterations to the design, this will result in a higher cost and a longer wait time. Similarly, if you want to use a material that isn't in her selection, finding and ordering your desired material will result in a longer weight time and possibly extra cost.
+Charmaine works from a large collection of designs in her portfolio, and although she can make minor alterations to the design, this will result in a higher cost and a longer wait time. Similarly, if you want to use a material that isn't in her selection, finding and ordering your desired material will result in a longer wait time and possibly extra cost.
 
 Save Nine's work is also displayed for sale at [Long Shot Coffee Stop](https://www.facebook.com/people/Long-Shot-Coffee-Stop/100076074286884), at the Bondoola Golf Driving Range just outside of Yeppoon. Some of Charmaine's finest work is presented at this charming coffee shop, and EFTPOS is available. She is also planning on attending some local markets in Yeppoon and Rockhampton, so keep an eye out.
 

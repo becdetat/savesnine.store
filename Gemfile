@@ -35,3 +35,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "webrick", "~> 1.8"
 
 gem "eventmachine", "~> 1.2"
+
+gem "minitest", "~> 5.18"
